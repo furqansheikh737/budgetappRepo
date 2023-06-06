@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #eaedee;
+}
+
+.maincontainer{
+    font-size: 22px;
+}
+.top-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.container div {
+    width: 45%;
+}
+.subcontainer div h3 {
+    color: #362d55;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.subcontainer div {
+    width: 72%;
+    padding: 25px 13px;
+    margin: 20px 45px;
+    border: 2px solid #bab4b4;
+    background-color: rgb(196, 238, 235);
+    border-radius: 6px;
+    box-shadow: 7px 7px rgba(26, 26, 27, 0.06);
+}
+
+.subcontainer input {
+    display: block;
+    width: 100%;
+    padding: 8px 6px;
+    border: 2px solid #bab4b4;
+    border-radius: 4px;
+    color: #414a67;
+    outline: none;
+    margin: 6px 0;
+}
+
+.subcontainer input:focus {
+    border-color: #587ef4;
+}
+
+.subcontainer button {
+    padding: 8px 6px;
+    margin: 6px 0;
+    border: 2px solid #bab4b4;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    background-color: #1f2121;
+}
+.subcontainer1 .outputContainer {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(196, 238, 235);
+    border: 2px solid #bab4b4;
+    border-radius: 6px;
+    margin: 20px -27px;
+    padding: 23px 9px;
+    box-shadow: 7px 7px rgba(26, 26, 27, 0.06);
+}
+
+.outputContainer div p {
+    color: #362d55;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.outputContainer div span {
+    display: block;
+    text-align: center;
+}
+
+.subcontainer1 .listContainer {
+    width: 100%;
+    background-color: rgb(196, 238, 235);
+    color: #362d55;
+    padding: 50px 12px;
+    margin: 20px -27px;
+    box-shadow: 7px 7px rgba(26, 26, 27, 0.06);
+    border: 2px solid #bab4b4;
+    border-radius: 6px;
+}
+.error{
+ color: #de182c;
+}
+.hide{
+    display: none;
+}
+.sublist-content{
+    width: 100%;
+    border-left: 1px solid #bab4b4;
+    padding: 4px 0;
+    margin-bottom: 7px;
+}
+.product{
+font-weight: 500;
+margin-left: 12px;
+color: #1f2121;
+}
+.icon-container{
+    width: 5em;
+    margin: 1.2em;
+    align-items: center;
+}
+.product-title{
+    margin-bottom: 6px;
+}
+.edit{
+    margin-left: auto;
+}
+.edit,.delete{
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 1.5em;
+    border: none;
+    color: #362d55;
+}
+.listitem{
+    padding: 0px 20px;
+    width: 100%;
+    margin: 1px 10px;
+    background-color: transparent;
+    
+}
